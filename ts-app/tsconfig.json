@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",                    // Устанавливает версию JavaScript, в которую компилируется TypeScript
+    "lib": ["dom", "dom.iterable", "esnext"],  // Библиотеки для работы с DOM и ESNext функциями
+    "allowJs": true,                    // Разрешает использование файлов JavaScript
+    "skipLibCheck": true,               // Пропускает проверку типов в библиотеках
+    "esModuleInterop": true,            // Позволяет импортировать CommonJS модули как ES6
+    "strict": true,                     // Включает строгий режим
+    "forceConsistentCasingInFileNames": true, // Обеспечивает консистентность регистра в именах файлов
+    "module": "esnext",                 // Использует современный модульный синтаксис
+    "moduleResolution": "node",         // Устанавливает стратегию разрешения модулей
+    "resolveJsonModule": true,          // Разрешает импорты JSON файлов
+    "jsx": "react-jsx"                  // Устанавливает поддержку JSX
+  },
+  "include": [
+    "src/**/*"                          // Включает все файлы в папке src
+  ]
+}

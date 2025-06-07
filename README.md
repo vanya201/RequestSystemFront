@@ -1,2 +1,0 @@
-init project
-commit danya
